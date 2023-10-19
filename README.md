@@ -2,17 +2,17 @@
 Official Code for paper "MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction"
 
 
-### Requirement
+## Requirement
 
 ```
 pip install -r requirements.txt
 ```
 
-### Data
+## Data Preprocessing
 
 We provide the data preprocessing scripts in ```data_preprocess``` folder. One can also download the preprocessed data from [[Link]]() and place it at the main folder.
 
-### Quick Start
+## Quick Start
 
 We provide demo scripts in ```run_script``` folder.
 
@@ -36,7 +36,7 @@ To finetune DCNv2 after pretraining:
 CUDA_VISIBLE_DEVICES=0 bash run_script/run_DCNv2_finetune.sh
 ```
 
-### Citation
+## Citation
 
 ```
 @inproceedings{lin2023map,
