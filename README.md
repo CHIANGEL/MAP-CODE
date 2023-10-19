@@ -1,6 +1,7 @@
 # MAP-CODE
 Official Code for paper "MAP: A Model-agnostic Pretraining Framework for Click-through Rate Prediction"
 
+**NOTE**: I have deleted some unrelated codes which are our preliminary exploratory experiments. If readers got any problems or come across any bugs, please kindly leave me a message.
 
 ## Requirement
 
