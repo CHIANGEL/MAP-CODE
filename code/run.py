@@ -17,9 +17,9 @@ if __name__ == "__main__":
     os.makedirs(training_args.output_dir, exist_ok=True)
     training_log = os.path.join(training_args.output_dir, "train.log")
     results_log = os.path.join(training_args.output_dir, "results.log")
-    # if os.path.exists(results_log):
-    #     print("job already finished, quit")
-    #     exit(0)
+    if os.path.exists(results_log):
+        print("job already finished, quit")
+        exit(0)
 
     # Setup logging
     logging.basicConfig(

@@ -35,9 +35,6 @@ class BaseDataset:
         # Split the CTR data
         self.X = {split: feat_ids[split_indices[split]] for split in self.split_names}
         self.Y = {split: labels[split_indices[split]] for split in self.split_names}
-        
-        self.X = {key: self.X[key][:10000] for key in self.X}
-        self.Y = {key: self.Y[key][:10000] for key in self.Y}
 
         self.get_feat_count_file()
         self.count_feat_per_field(feat_ids)
