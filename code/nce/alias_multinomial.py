@@ -30,8 +30,8 @@ class AliasMultinomial(torch.nn.Module):
         cpu_probs = probs.cpu()
         K = len(probs)
 
-        self_prob_file = os.path.join(config.data_dir, f'alias_self_prob_{config.n_core}-core.h5')
-        self_alias_file = os.path.join(config.data_dir, f'alias_self_alias_{config.n_core}-core.h5')
+        self_prob_file = os.path.join(config.data_dir, f'alias_self_prob.h5')
+        self_alias_file = os.path.join(config.data_dir, f'alias_self_alias.h5')
         if os.path.exists(self_prob_file) and os.path.exists(self_alias_file):
             self_prob = torch.load(self_prob_file)
             self_alias = torch.load(self_alias_file)

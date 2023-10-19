@@ -129,10 +129,10 @@ dmypy.json
 .pyre/
 
 data/
-code/wandb/*
 *.model
 code/pyx_utils/*
 ddp_demo/*
 saved_code/*
 *.pdf
 *.png
+.nfs*

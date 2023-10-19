@@ -71,10 +71,10 @@ class NCELoss(nn.Module):
         else:
             self.norm_term = norm_term
         self.reduction = reduction
-        self.per_word = (not config.share_neg)
+        self.per_word = True
         self.bce_with_logits = nn.BCEWithLogitsLoss(reduction='none')
         self.ce = nn.CrossEntropyLoss(reduction='none')
-        self.loss_type = config.pt_loss
+        self.loss_type = "nce"
 
     def forward(self, target, *args, **kwargs):
         """compute the loss with output and the desired target
