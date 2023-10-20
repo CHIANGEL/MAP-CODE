@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ## Data Preprocessing
 
-We provide the data preprocessing scripts in ```data_preprocess``` folder. One can also download the preprocessed data from [[Link]]() and place it at the main folder.
+We provide the data preprocessing scripts in ```data_preprocess``` folder. One can also download the preprocessed data from [[Link]](https://drive.google.com/file/d/1Lr3LMwhFTUVSFYVzhvcJCmW4c6So94Qm/view?usp=sharing) and place it at the main folder.
 
 ## Quick Start
 
